@@ -1,0 +1,49 @@
+{
+    "LaunchSpecifications": [{
+            "ImageId": "ami-0a2de1c3b415889d2",
+            "KeyName": "mbp13",
+            "SecurityGroups": [{
+                    "GroupId": "sg-0c8f4e8308e8e3281"
+                },
+                {
+                    "GroupId": "sg-909993ee"
+                }
+            ],
+            "SubnetId": "subnet-34f83c1f",
+            "InstanceType": "t3a.nano",
+            "SpotPrice": "0.0061"
+        },
+        {
+            "ImageId": "ami-0a2de1c3b415889d2",
+            "KeyName": "mbp13",
+            "SecurityGroups": [{
+                    "GroupId": "sg-0c8f4e8308e8e3281"
+                },
+                {
+                    "GroupId": "sg-909993ee"
+                }
+            ],
+            "SubnetId": "subnet-b7dc21ff",
+            "InstanceType": "t3a.nano",
+            "SpotPrice": "0.0061"
+        },
+        {
+            "ImageId": "ami-0a2de1c3b415889d2",
+            "KeyName": "mbp13",
+            "SecurityGroups": [{
+                    "GroupId": "sg-0c8f4e8308e8e3281"
+                },
+                {
+                    "GroupId": "sg-909993ee"
+                }
+            ],
+            "SubnetId": "subnet-0b361950",
+            "InstanceType": "t3a.nano",
+            "SpotPrice": "0.0061"
+        }
+    ],
+    "IamFleetRole": "arn:aws:iam::666559033282:role/aws-ec2-spot-fleet-tagging-role",
+    "TargetCapacity": 1,
+    "SpotPrice": "0.0061",
+    "AllocationStrategy": "capacityOptimized"
+}

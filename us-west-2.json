@@ -1,0 +1,75 @@
+{
+    "LaunchSpecifications": [{
+            "ImageId": "ami-01e24be29428c15b2",
+            "KeyName": "mbp13",
+            "SecurityGroups": [{
+                    "GroupId": "sg-05d3fc0cd50489b42"
+                },
+                {
+                    "GroupId": "sg-f72383be"
+                },
+                {
+                    "GroupId": "sg-0e0d52cdafa1571a4"
+                }
+            ],
+            "SubnetId": "subnet-e9af8590",
+            "InstanceType": "t3a.nano",
+            "SpotPrice": "0.0047"
+        },
+        {
+            "ImageId": "ami-01e24be29428c15b2",
+            "KeyName": "mbp13",
+            "SecurityGroups": [{
+                    "GroupId": "sg-05d3fc0cd50489b42"
+                },
+                {
+                    "GroupId": "sg-f72383be"
+                },
+                {
+                    "GroupId": "sg-0e0d52cdafa1571a4"
+                }
+            ],
+            "SubnetId": "subnet-db666281",
+            "InstanceType": "t3a.nano",
+            "SpotPrice": "0.0047"
+        },
+        {
+            "ImageId": "ami-01e24be29428c15b2",
+            "KeyName": "mbp13",
+            "SecurityGroups": [{
+                    "GroupId": "sg-05d3fc0cd50489b42"
+                },
+                {
+                    "GroupId": "sg-f72383be"
+                },
+                {
+                    "GroupId": "sg-0e0d52cdafa1571a4"
+                }
+            ],
+            "SubnetId": "subnet-034e1948",
+            "InstanceType": "t3a.nano",
+            "SpotPrice": "0.0047"
+        },
+        {
+            "ImageId": "ami-01e24be29428c15b2",
+            "KeyName": "mbp13",
+            "SecurityGroups": [{
+                    "GroupId": "sg-05d3fc0cd50489b42"
+                },
+                {
+                    "GroupId": "sg-f72383be"
+                },
+                {
+                    "GroupId": "sg-0e0d52cdafa1571a4"
+                }
+            ],
+            "SubnetId": "subnet-4e94db66",
+            "InstanceType": "t3a.nano",
+            "SpotPrice": "0.0047"
+        }
+    ],
+    "IamFleetRole": "arn:aws:iam::666559033282:role/aws-ec2-spot-fleet-tagging-role",
+    "TargetCapacity": 1,
+    "SpotPrice": "0.0047",
+    "AllocationStrategy": "capacityOptimized"
+}

@@ -1,0 +1,7 @@
+{
+    "server":"34.223.83.139",
+    "server_port":10213,
+    "password":"guanbo2006",
+    "method": "chacha20-ietf",
+    "timeout":600
+}
