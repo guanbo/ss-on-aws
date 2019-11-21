@@ -1,5 +1,5 @@
 {
-    "server":"34.223.83.139",
+    "server":"HOST_PUBLIC_IP",
     "server_port":10213,
     "password":"guanbo2006",
     "method": "chacha20-ietf",
