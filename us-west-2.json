@@ -1,6 +1,6 @@
 {
     "LaunchSpecifications": [{
-            "ImageId": "ami-01e24be29428c15b2",
+            "ImageId": "ami-01bbe152bf19d0289",
             "KeyName": "mbp13",
             "SecurityGroups": [{
                     "GroupId": "sg-05d3fc0cd50489b42"
@@ -17,7 +17,7 @@
             "SpotPrice": "0.0047"
         },
         {
-            "ImageId": "ami-01e24be29428c15b2",
+            "ImageId": "ami-01bbe152bf19d0289",
             "KeyName": "mbp13",
             "SecurityGroups": [{
                     "GroupId": "sg-05d3fc0cd50489b42"
@@ -34,7 +34,7 @@
             "SpotPrice": "0.0047"
         },
         {
-            "ImageId": "ami-01e24be29428c15b2",
+            "ImageId": "ami-01bbe152bf19d0289",
             "KeyName": "mbp13",
             "SecurityGroups": [{
                     "GroupId": "sg-05d3fc0cd50489b42"
@@ -51,7 +51,7 @@
             "SpotPrice": "0.0047"
         },
         {
-            "ImageId": "ami-01e24be29428c15b2",
+            "ImageId": "ami-01bbe152bf19d0289",
             "KeyName": "mbp13",
             "SecurityGroups": [{
                     "GroupId": "sg-05d3fc0cd50489b42"
