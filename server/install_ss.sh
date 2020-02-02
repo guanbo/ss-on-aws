@@ -6,4 +6,4 @@ sudo amazon-linux-extras install golang1.9
 go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-server
 echo "===Install Done==="
 
-startup.sh
+./startup.sh
