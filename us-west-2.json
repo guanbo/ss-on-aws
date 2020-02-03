@@ -9,7 +9,7 @@
                     "GroupId": "sg-f72383be"
                 },
                 {
-                    "GroupId": "sg-0e0d52cdafa1571a4"
+                    "GroupId": "sg-08fcc7d002489f1bb"
                 }
             ],
             "SubnetId": "subnet-e9af8590",
@@ -26,7 +26,7 @@
                     "GroupId": "sg-f72383be"
                 },
                 {
-                    "GroupId": "sg-0e0d52cdafa1571a4"
+                    "GroupId": "sg-08fcc7d002489f1bb"
                 }
             ],
             "SubnetId": "subnet-db666281",
@@ -43,7 +43,7 @@
                     "GroupId": "sg-f72383be"
                 },
                 {
-                    "GroupId": "sg-0e0d52cdafa1571a4"
+                    "GroupId": "sg-08fcc7d002489f1bb"
                 }
             ],
             "SubnetId": "subnet-034e1948",
@@ -60,7 +60,7 @@
                     "GroupId": "sg-f72383be"
                 },
                 {
-                    "GroupId": "sg-0e0d52cdafa1571a4"
+                    "GroupId": "sg-08fcc7d002489f1bb"
                 }
             ],
             "SubnetId": "subnet-4e94db66",

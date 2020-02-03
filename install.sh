@@ -14,3 +14,5 @@ ssh ${user_host} ./install_ss.sh ${host}
 
 echo "ShadowSocks Server configuration following..."
 cat server/config.json
+
+./authorize_ip.sh
