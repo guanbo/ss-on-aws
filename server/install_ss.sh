@@ -15,6 +15,7 @@ output = json
 region = $ec2_region
 EOF
 
-python3 app.py &
-
 ./startup.sh
+
+pip3 install boto3 --user
+python3 app.py &
