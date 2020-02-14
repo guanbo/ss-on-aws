@@ -12,6 +12,9 @@
                     "GroupId": "sg-08fcc7d002489f1bb"
                 }
             ],
+            "IamInstanceProfile": {
+                "Name": "ShadowSocksRole"
+            },
             "SubnetId": "subnet-e9af8590",
             "InstanceType": "t3a.nano",
             "SpotPrice": "0.0047"
@@ -29,6 +32,9 @@
                     "GroupId": "sg-08fcc7d002489f1bb"
                 }
             ],
+            "IamInstanceProfile": {
+                "Name": "ShadowSocksRole"
+            },
             "SubnetId": "subnet-db666281",
             "InstanceType": "t3a.nano",
             "SpotPrice": "0.0047"
@@ -46,6 +52,9 @@
                     "GroupId": "sg-08fcc7d002489f1bb"
                 }
             ],
+            "IamInstanceProfile": {
+                "Name": "ShadowSocksRole"
+            },
             "SubnetId": "subnet-034e1948",
             "InstanceType": "t3a.nano",
             "SpotPrice": "0.0047"
@@ -63,6 +72,9 @@
                     "GroupId": "sg-08fcc7d002489f1bb"
                 }
             ],
+            "IamInstanceProfile": {
+                "Name": "ShadowSocksRole"
+            },
             "SubnetId": "subnet-4e94db66",
             "InstanceType": "t3a.nano",
             "SpotPrice": "0.0047"

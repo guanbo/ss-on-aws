@@ -18,4 +18,4 @@ EOF
 ./startup.sh
 
 pip3 install boto3 --user
-python3 app.py &
+python3 app.py > /dev/null &
