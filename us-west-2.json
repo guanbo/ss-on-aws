@@ -13,7 +13,7 @@
                 }
             ],
             "SubnetId": "subnet-e9af8590",
-            "InstanceType": "t3.nano",
+            "InstanceType": "t3a.nano",
             "SpotPrice": "0.0047"
         },
         {
@@ -30,7 +30,7 @@
                 }
             ],
             "SubnetId": "subnet-db666281",
-            "InstanceType": "t3.nano",
+            "InstanceType": "t3a.nano",
             "SpotPrice": "0.0047"
         },
         {
@@ -47,7 +47,7 @@
                 }
             ],
             "SubnetId": "subnet-034e1948",
-            "InstanceType": "t3.nano",
+            "InstanceType": "t3a.nano",
             "SpotPrice": "0.0047"
         },
         {
@@ -64,7 +64,7 @@
                 }
             ],
             "SubnetId": "subnet-4e94db66",
-            "InstanceType": "t3.nano",
+            "InstanceType": "t3a.nano",
             "SpotPrice": "0.0047"
         }
     ],
