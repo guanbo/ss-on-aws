@@ -6,7 +6,7 @@ user_host=ec2-user@${host}
 passwd=E2E1D5DC37B54A40963AD10071C55127
 
 # generate configure file
-python -c 'import sys,json;data=json.load(sys.stdin);data["server"]=sys.argv[1];data["password"]=sys.argv[2];print json.dumps(data)' ${host} ${passwd} < config.tpl > server/config.json
+python -c 'import sys,json;data=json.load(sys.stdin);data["server"]=sys.argv[1];data["password"]=sys.argv[2];print(json.dumps(data))' ${host} ${passwd} < config.tpl > server/config.json
 
 ssh-keyscan -H ${host}
 scp server/* ${user_host}:.
