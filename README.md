@@ -1,5 +1,43 @@
 # SS on AWS
 
+
+## Prerequest
+
+### AWSCLI
+
+download form [https://awscli.amazonaws.com/AWSCLIV2.pkg](https://awscli.amazonaws.com/AWSCLIV2.pkg) and install
+
+### AWS Access Token
+
+Browse [https://console.aws.amazon.com/iam/home#/users](https://console.aws.amazon.com/iam/home#/users)
+
+- select user, such as (administrator)
+- select security_credentials
+- click `create access token` button
+- downlaod `administrator_accessKeys.csv`
+
+`administrator_accessKeys.csv` look likes following:  
+
+|Access key ID|	Secret access key|
+|-|-|
+|AKIAZWMQDV7BFADM2JPM|	b/3TOls1g/hNyrBd8HcLGXSfqvvtJ+40cRbA+aKr|
+
+```shell
+$ aws configure
+AWS Access Key ID [****************QFHX]: 
+AWS Secret Access Key [****************+riJ]: 
+Default region name [ap-northeast-1]: 
+Default output format [json]:
+```
+
+### Security Group
+
+```shell
+$ aws ec2 create-security-group --group-name ss --description shadowsocks
+$ aws ec2 authorize-security-group-ingress --group-name ss --protocol tcp --port 22 --cidr 0.0.0.0/0
+$ aws ec2 authorize-security-group-ingress --group-name ss --protocol tcp --port 20201 --cidr 0.0.0.0/0
+```
+
 ## Quick Start
 
 ```shell
@@ -26,3 +64,7 @@ $ avpn './startup.sh'
 ```shell
 $ avpn './shutdown.sh'
 ```
+
+## Authorize IP to Security Group
+
+browse http://your.host.ip:20201/auth

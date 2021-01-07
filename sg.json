@@ -1,0 +1,75 @@
+{
+    "GroupId": "sg-02e678b5802e8d4ba",
+    "GroupName": "ss2",
+    "IpPermissions": [
+        {
+            "FromPort": 10200,
+            "IpProtocol": "udp",
+            "IpRanges": [
+                {
+                    "CidrIp": "122.96.147.158/32"
+                }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "ToPort": 10300,
+            "UserIdGroupPairs": []
+        },
+        {
+            "FromPort": 22,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+                {
+                    "CidrIp": "0.0.0.0/0"
+                }
+            ],
+            "Ipv6Ranges": [
+                {
+                    "CidrIpv6": "::/0"
+                }
+            ],
+            "PrefixListIds": [],
+            "ToPort": 22,
+            "UserIdGroupPairs": []
+        },
+        {
+            "FromPort": 10200,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+                {
+                    "CidrIp": "122.96.147.158/32"
+                }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "ToPort": 10300,
+            "UserIdGroupPairs": []
+        },
+        {
+            "FromPort": 20201,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+                {
+                    "CidrIp": "0.0.0.0/0"
+                }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "ToPort": 20201,
+            "UserIdGroupPairs": []
+        }
+    ],
+    "IpPermissionsEgress": [
+        {
+            "IpProtocol": "-1",
+            "IpRanges": [
+                {
+                    "CidrIp": "0.0.0.0/0"
+                }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "UserIdGroupPairs": []
+        }
+    ]
+}
