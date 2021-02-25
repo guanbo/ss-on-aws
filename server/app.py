@@ -19,7 +19,7 @@ class AuthorizationHttpRequestHandler(BaseHTTPRequestHandler):
     self.wfile.write(bytes("Authorized: "+self.client_address[0], "utf-8"))
     cidrip=self.client_address[0]+"/32"
     client.authorize_security_group_ingress(CidrIp=cidrip,FromPort=10200,ToPort=10300,GroupName="ss",IpProtocol="tcp")
-    client.authorize_security_group_ingress(CidrIp=cidrip,FromPort=10200,ToPort=10300,GroupName="ss",IpProtocol="udp")
+    # client.authorize_security_group_ingress(CidrIp=cidrip,FromPort=10200,ToPort=10300,GroupName="ss",IpProtocol="udp")
 
 httpd = HTTPServer(('0.0.0.0', 20201), AuthorizationHttpRequestHandler)
 httpd.serve_forever()
