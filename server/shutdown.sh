@@ -2,7 +2,8 @@
 
 set -e
 
-pid=`ps -ef|grep shadow|grep -v grep|awk '{print $2}'`
+# pid=`ps -ef|grep shadow|grep -v grep|awk '{print $2}'`
+pid=`ps -ef|grep outline|grep -v grep|awk '{print $2}'`
 if [ $pid ] 
 then
   kill -9 $pid
