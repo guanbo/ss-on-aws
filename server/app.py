@@ -10,7 +10,7 @@ class AuthorizationHttpRequestHandler(BaseHTTPRequestHandler):
   
   def do_GET(self):
     if self.path != '/auth':
-      self.send_response_only(404, 'Not Found')
+      # self.send_response_only(404, 'Not Found')
       return
     
     self.send_response(200)
