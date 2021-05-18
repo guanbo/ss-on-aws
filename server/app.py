@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from http.server import HTTPServer, BaseHTTPRequestHandler
+from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 
 import boto3
 
@@ -21,5 +21,10 @@ class AuthorizationHttpRequestHandler(BaseHTTPRequestHandler):
     client.authorize_security_group_ingress(CidrIp=cidrip,FromPort=10200,ToPort=10300,GroupName="ss",IpProtocol="tcp")
     # client.authorize_security_group_ingress(CidrIp=cidrip,FromPort=10200,ToPort=10300,GroupName="ss",IpProtocol="udp")
 
-httpd = HTTPServer(('0.0.0.0', 20201), AuthorizationHttpRequestHandler)
-httpd.serve_forever()
+while True:
+  try:
+    httpd = ThreadingHTTPServer(('0.0.0.0', 20201), AuthorizationHttpRequestHandler)
+    httpd.serve_forever()
+  except Exception as e:
+    print(e)
+    # raise e
