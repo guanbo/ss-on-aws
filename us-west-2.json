@@ -1,7 +1,7 @@
 {
     "LaunchSpecifications": [{
             "ImageId": "ami-01bbe152bf19d0289",
-            "KeyName": "mbp13",
+            "KeyName": "mbp16",
             "SecurityGroups": [{
                     "GroupId": "sg-05d3fc0cd50489b42"
                 },
@@ -21,7 +21,7 @@
         },
         {
             "ImageId": "ami-01bbe152bf19d0289",
-            "KeyName": "mbp13",
+            "KeyName": "mbp16",
             "SecurityGroups": [{
                     "GroupId": "sg-05d3fc0cd50489b42"
                 },
@@ -41,7 +41,7 @@
         },
         {
             "ImageId": "ami-01bbe152bf19d0289",
-            "KeyName": "mbp13",
+            "KeyName": "mbp16",
             "SecurityGroups": [{
                     "GroupId": "sg-05d3fc0cd50489b42"
                 },
@@ -61,7 +61,7 @@
         },
         {
             "ImageId": "ami-01bbe152bf19d0289",
-            "KeyName": "mbp13",
+            "KeyName": "mbp16",
             "SecurityGroups": [{
                     "GroupId": "sg-05d3fc0cd50489b42"
                 },
