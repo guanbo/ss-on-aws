@@ -1,58 +1,130 @@
 {
-    "LaunchSpecifications": [{
-            "ImageId": "ami-0a2de1c3b415889d2",
-            "KeyName": "mbp16",
-            "SecurityGroups": [{
+    "IamFleetRole": "arn:aws:iam::666559033282:role/aws-ec2-spot-fleet-tagging-role",
+    "AllocationStrategy": "capacityOptimized",
+    "TargetCapacity": 1,
+    "TerminateInstancesWithExpiration": true,
+    "Type": "maintain",
+    "SpotPrice": "0.0136",
+    "LaunchSpecifications": [
+        {
+            "ImageId": "ami-02c3627b04781eada",
+            "IamInstanceProfile": {
+                "Name": "ShadowSocksRole"
+            },
+            "KeyName": "mbp13",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0970af289e966f61b",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "SubnetId": "subnet-b7dc21ff, subnet-0b361950, subnet-34f83c1f",
+            "SecurityGroups": [
+                {
                     "GroupId": "sg-0c8f4e8308e8e3281"
                 },
                 {
                     "GroupId": "sg-909993ee"
                 }
             ],
-            "IamInstanceProfile": {
-                "Name": "ShadowSocksRole"
-            },
-            "SubnetId": "subnet-34f83c1f",
-            "InstanceType": "t3a.nano",
-            "SpotPrice": "0.0061"
+            "InstanceType": "t3.micro",
+            "SpotPrice": "0.0136"
         },
         {
-            "ImageId": "ami-0a2de1c3b415889d2",
-            "KeyName": "mbp16",
-            "SecurityGroups": [{
+            "ImageId": "ami-02c3627b04781eada",
+            "IamInstanceProfile": {
+                "Name": "ShadowSocksRole"
+            },
+            "KeyName": "mbp13",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0970af289e966f61b",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "SubnetId": "subnet-b7dc21ff, subnet-0b361950, subnet-34f83c1f",
+            "SecurityGroups": [
+                {
                     "GroupId": "sg-0c8f4e8308e8e3281"
                 },
                 {
                     "GroupId": "sg-909993ee"
                 }
             ],
-            "IamInstanceProfile": {
-                "Name": "ShadowSocksRole"
-            },
-            "SubnetId": "subnet-b7dc21ff",
-            "InstanceType": "t3a.nano",
-            "SpotPrice": "0.0061"
+            "InstanceType": "t3a.micro",
+            "SpotPrice": "0.0122"
         },
         {
-            "ImageId": "ami-0a2de1c3b415889d2",
-            "KeyName": "mbp16",
-            "SecurityGroups": [{
+            "ImageId": "ami-02c3627b04781eada",
+            "IamInstanceProfile": {
+                "Name": "ShadowSocksRole"
+            },
+            "KeyName": "mbp13",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0970af289e966f61b",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "SubnetId": "subnet-b7dc21ff, subnet-0b361950, subnet-34f83c1f",
+            "SecurityGroups": [
+                {
                     "GroupId": "sg-0c8f4e8308e8e3281"
                 },
                 {
                     "GroupId": "sg-909993ee"
                 }
             ],
+            "InstanceType": "t3.nano",
+            "SpotPrice": "0.0068"
+        },
+        {
+            "ImageId": "ami-02c3627b04781eada",
             "IamInstanceProfile": {
                 "Name": "ShadowSocksRole"
             },
-            "SubnetId": "subnet-0b361950",
+            "KeyName": "mbp13",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda",
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0970af289e966f61b",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    }
+                }
+            ],
+            "SubnetId": "subnet-b7dc21ff, subnet-0b361950, subnet-34f83c1f",
+            "SecurityGroups": [
+                {
+                    "GroupId": "sg-0c8f4e8308e8e3281"
+                },
+                {
+                    "GroupId": "sg-909993ee"
+                }
+            ],
             "InstanceType": "t3a.nano",
             "SpotPrice": "0.0061"
         }
-    ],
-    "IamFleetRole": "arn:aws:iam::666559033282:role/aws-ec2-spot-fleet-tagging-role",
-    "TargetCapacity": 1,
-    "SpotPrice": "0.0061",
-    "AllocationStrategy": "capacityOptimized"
+    ]
 }

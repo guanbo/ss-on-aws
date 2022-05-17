@@ -1,11 +1,12 @@
 #!/bin/bash
 
 sudo yum update -y
-sudo yum install git python3 -y
-sudo amazon-linux-extras install golang1.11
-# go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-server
-# go get -u -v github.com/shadowsocks/go-shadowsocks2
-go get github.com/Jigsaw-code/outline-ss-server
+# sudo yum install git python3 -y
+# sudo amazon-linux-extras install golang1.11
+# go get github.com/Jigsaw-code/outline-ss-server
+curl -LO https://github.com/Jigsaw-Code/outline-ss-server/releases/download/v1.3.5/outline-ss-server_1.3.5_linux_x86_64.tar.gz
+cd ~/.local/bin
+tar -zxvf ../../outline-ss-server_1.3.5_linux_x86_64.tar.gz
 echo "===Install Done==="
 
 mkdir -p .aws/
@@ -19,4 +20,4 @@ EOF
 ./startup.sh
 
 pip3 install boto3 --user
-nohup python3 app.py 2>&1 &
+nohup python3 app.py 2>&1 > app.log &
