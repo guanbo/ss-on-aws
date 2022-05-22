@@ -5,8 +5,10 @@ sudo yum update -y
 # sudo amazon-linux-extras install golang1.11
 # go get github.com/Jigsaw-code/outline-ss-server
 curl -LO https://github.com/Jigsaw-Code/outline-ss-server/releases/download/v1.3.5/outline-ss-server_1.3.5_linux_x86_64.tar.gz
-cd ~/.local/bin
+mkdir -p ~/.local/bin
+pushd .local/bind
 tar -zxvf ../../outline-ss-server_1.3.5_linux_x86_64.tar.gz
+popd
 echo "===Install Done==="
 
 mkdir -p .aws/
