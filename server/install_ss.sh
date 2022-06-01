@@ -6,7 +6,7 @@ sudo yum update -y
 # go get github.com/Jigsaw-code/outline-ss-server
 curl -LO https://github.com/Jigsaw-Code/outline-ss-server/releases/download/v1.3.5/outline-ss-server_1.3.5_linux_x86_64.tar.gz
 mkdir -p ~/.local/bin
-pushd .local/bind
+pushd .local/bin
 tar -zxvf ../../outline-ss-server_1.3.5_linux_x86_64.tar.gz
 popd
 echo "===Install Done==="
