@@ -7,7 +7,7 @@
     "SpotPrice": "0.0136",
     "LaunchSpecifications": [
         {
-            "ImageId": "ami-02c3627b04781eada",
+            "ImageId": "ami-046a961f907758d0d",
             "IamInstanceProfile": {
                 "Name": "ShadowSocksRole"
             },
@@ -37,7 +37,7 @@
             "SpotPrice": "0.0136"
         },
         {
-            "ImageId": "ami-02c3627b04781eada",
+            "ImageId": "ami-046a961f907758d0d",
             "IamInstanceProfile": {
                 "Name": "ShadowSocksRole"
             },
@@ -67,7 +67,7 @@
             "SpotPrice": "0.0122"
         },
         {
-            "ImageId": "ami-02c3627b04781eada",
+            "ImageId": "ami-046a961f907758d0d",
             "IamInstanceProfile": {
                 "Name": "ShadowSocksRole"
             },
@@ -97,7 +97,7 @@
             "SpotPrice": "0.0068"
         },
         {
-            "ImageId": "ami-02c3627b04781eada",
+            "ImageId": "ami-046a961f907758d0d",
             "IamInstanceProfile": {
                 "Name": "ShadowSocksRole"
             },
