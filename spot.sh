@@ -18,9 +18,9 @@ function get_public_ip()
 
 aws ec2 request-spot-fleet --spot-fleet-request-config file://${aws_region}.json
 
-get_public_ip
-get_instance_id
+# get_public_ip
+# get_instance_id
 aws ec2 wait instance-running --instance-ids $instance_id
 
-echo "associate-address $public_ip to $instance_id "
-aws ec2 associate-address --instance-id $instance_id --public-ip $public_ip
+# echo "associate-address $public_ip to $instance_id "
+# aws ec2 associate-address --instance-id $instance_id --public-ip $public_ip

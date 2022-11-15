@@ -4,10 +4,11 @@ sudo yum update -y
 # sudo yum install git python3 -y
 # sudo amazon-linux-extras install golang1.11
 # go get github.com/Jigsaw-code/outline-ss-server
-curl -LO https://github.com/Jigsaw-Code/outline-ss-server/releases/download/v1.4.0/outline-ss-server_1.4.0_linux_x86_64.tar.gz
+outline_ver=1.3.5
+curl -LO https://github.com/Jigsaw-Code/outline-ss-server/releases/download/v${outline_ver}/outline-ss-server_${outline_ver}_linux_x86_64.tar.gz
 mkdir -p ~/.local/bin
 pushd .local/bin
-tar -zxvf ../../outline-ss-server_1.3.5_linux_x86_64.tar.gz
+tar -zxvf ../../outline-ss-server_${outline_ver}_linux_x86_64.tar.gz
 popd
 echo "===Install Done==="
 
