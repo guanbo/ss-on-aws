@@ -22,5 +22,5 @@ EOF
 
 ./startup.sh
 
-pip3 install boto3 --user
-nohup python3 app.py 2>&1 > app.log &
+# pip3 install boto3 --user
+# nohup python3 app.py 2>&1 > app.log &
