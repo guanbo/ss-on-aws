@@ -1,0 +1,49 @@
+{
+    "run_type": "client",
+    "local_addr": "0.0.0.0",
+    "local_port": 1081,
+    "remote_addr": "ss.minfan.tech",
+    "remote_port": 443,
+    "password": [
+        "AutoCore"
+    ],
+    "ssl": {
+        "sni": "ss.minfan.tech",
+        "fingerprint": "chrome"
+    },
+    "mux": {
+        "enabled": false
+    },
+    "router": {
+        "enabled": true,
+         "bypass": [
+            "geoip:cn",
+            "geoip:private",
+            "geosite:cn",
+            "geosite:geolocation-cn",
+            "domain:googleapis.cn"
+        ],
+        "block": [
+            "domain:appcenter.ms",
+            "domain:app-measurement.com",
+            "domain:firebase.io",
+            "domain:crashlytics.com",
+            "domain:google-analytics.com"
+        ],
+        "geoip": "/usr/local/opt/trojan-go/share/trojan-go/geoip.dat",
+        "geosite": "/usr/local/opt/trojan-go/share/trojan-go/geosite.dat"
+    },
+    "mux": {
+        "enabled": false
+    },
+    "websocket": {
+        "enabled": true,
+        "path": "/autocore/websocket",
+        "host": "ss.minfan.tech"
+    },
+    "shadowsocks": {
+        "enabled": true,
+        "method": "chacha20-ietf-poly1305",
+        "password": "B5pT+ufqgft6TP+eELY4ag=="
+    }
+}
