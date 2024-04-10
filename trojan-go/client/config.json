@@ -11,9 +11,6 @@
         "sni": "ss.minfan.tech",
         "fingerprint": "chrome"
     },
-    "mux": {
-        "enabled": false
-    },
     "router": {
         "enabled": true,
          "bypass": [
