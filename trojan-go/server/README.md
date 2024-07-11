@@ -1,5 +1,13 @@
 # Trojan Server Configuration
 
+## Install
+```sh
+curl -LO https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-amd64.zip
+unzip trojan-go-linux-amd64.zip
+sudo cp ~/trojan-go/example/trojan-go.service /etc/systemd/system/
+sudo systemctl enable trojan-go 
+sudo systemctl start trojan-go
+```
 ## BBR
 ### Prerequistion
 - Linux kernel >= 4.9
