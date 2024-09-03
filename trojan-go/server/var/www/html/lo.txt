@@ -3,14 +3,16 @@ var proxy = __PROXY__;
 var rules = [
     [
         [],
-        []
+        [
+            "atl-paas.net",
+            "frontend.public.atl-paas.net"
+        ],
     ],
     [
         [
             "aftygh.gov.tw",
             "aide.gov.tw",
             "aliyun.com",
-            "atl-paas.net",
             "arxiv.org",
             "arte.gov.tw",
             "baidu.com",
