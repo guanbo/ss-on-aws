@@ -5,7 +5,7 @@ var rules = [
         [],
         [
 			"atlassian.net",
-            "atl-paas.net",
+			"atl-paas.net",
 			"structure.app",
 			"cloudfront.net",
 			"gravatar.com",
