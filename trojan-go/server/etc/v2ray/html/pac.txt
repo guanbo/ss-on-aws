@@ -143,6 +143,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)arena\.taipei$/.test(host)) return "+AutoCoreHTTP";
         if (/(?:^|\.)asianspiss\.com$/.test(host)) return "+AutoCoreHTTP";
         if (/(?:^|\.)assimp\.org$/.test(host)) return "+AutoCoreHTTP";
+        if (/(?:^|\.)atlassian\.net/.test(host)) return "+AutoCoreHTTP";
         if (/(?:^|\.)atl-paas\.net/.test(host)) return "+AutoCoreHTTP";
         if (/(?:^|\.)athenaeizou\.com$/.test(host)) return "+AutoCoreHTTP";
         if (/(?:^|\.)azubu\.tv$/.test(host)) return "+AutoCoreHTTP";

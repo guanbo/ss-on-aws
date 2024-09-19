@@ -4,8 +4,15 @@ var rules = [
     [
         [],
         [
+			"atlassian.net",
             "atl-paas.net",
-            "frontend.public.atl-paas.net"
+			"structure.app",
+			"cloudfront.net",
+			"gravatar.com",
+			"segment.com",
+			"appcues.com",
+			"wp.com",
+			"pendo.io"
         ],
     ],
     [
