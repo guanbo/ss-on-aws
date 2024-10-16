@@ -10,6 +10,7 @@ var rules = [
             "bootstrapcdn.com",
             "structure.app",
             "cloudfront.net",
+            "cloudflare.com",
             "gravatar.com",
             "segment.com",
             "appcues.com",
