@@ -1,5 +1,0 @@
-keys:
-  - id: user-0
-    port: 10213
-    cipher: chacha20-ietf-poly1305
-    secret: B5pT+ufqgft6TP+eELY4ag==

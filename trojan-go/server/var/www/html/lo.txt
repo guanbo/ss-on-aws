@@ -16,7 +16,8 @@ var rules = [
             "appcues.com",
             "wp.com",
             "pendo.io",
-            "cdn.sstatic.net"
+            "cdn.sstatic.net",
+            "stackoverflow.blog"
         ],
     ],
     [
