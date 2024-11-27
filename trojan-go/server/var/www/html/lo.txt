@@ -18,7 +18,10 @@ var rules = [
             "wp.com",
             "pendo.io",
             "cdn.sstatic.net",
-            "stackoverflow.blog"
+            "stackoverflow.blog",
+            "cdn.oaistatic.com",
+            "pypi.org",
+            "cdn.auth0.com",
         ],
     ],
     [
