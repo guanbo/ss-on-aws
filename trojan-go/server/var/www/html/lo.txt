@@ -22,6 +22,7 @@ var rules = [
             "cdn.oaistatic.com",
             "pypi.org",
             "cdn.auth0.com",
+            "reddit.com",
         ],
     ],
     [
