@@ -23,6 +23,8 @@ var rules = [
             "pypi.org",
             "cdn.auth0.com",
             "reddit.com",
+            "gitlab.com",
+            "gitlab.io",
         ],
     ],
     [
