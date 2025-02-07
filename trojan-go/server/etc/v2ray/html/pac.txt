@@ -3264,6 +3264,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)githubassets\.com$/.test(host)) return "+AutoCoreHTTP";
         if (/(?:^|\.)gitlab\.com$/.test(host)) return "+AutoCoreHTTP";
         if (/(?:^|\.)gitlab\.io$/.test(host)) return "+AutoCoreHTTP";
+        if (/(?:^|\.)dify\.ai$/.test(host)) return "+AutoCoreHTTP";
+        if (/(?:^|\.)chatgpt\.com$/.test(host)) return "+AutoCoreHTTP";
         if (scheme === "http" && url.indexOf(".gizlen.net") >= 0) return "+AutoCoreHTTP";
         if (/(?:^|\.)gizlen\.net$/.test(host)) return "+AutoCoreHTTP";
         if (scheme === "http" && url.indexOf(".gjczz.com") >= 0) return "+AutoCoreHTTP";
