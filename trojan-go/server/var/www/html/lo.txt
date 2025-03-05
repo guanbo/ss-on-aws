@@ -26,6 +26,7 @@ var rules = [
             "gitlab.com",
             "gitlab.io",
             "huggingface.co",
+            "flowith.io",
             "anthropic.com",
             "claude.ai",
         ],
