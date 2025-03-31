@@ -3267,6 +3267,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)dify\.ai$/.test(host)) return "+AutoCoreHTTP";
         if (/(?:^|\.)chatgpt\.com$/.test(host)) return "+AutoCoreHTTP";
         if (/(?:^|\.)flowith\.io$/.test(host)) return "+AutoCoreHTTP";
+        if (/(?:^|\.)cdn\.office\.net$/.test(host)) return "+AutoCoreHTTP";
         if (/(?:^|\.)anthropic\.com$/.test(host)) return "+AutoCoreHTTP";
         if (/(?:^|\.)claude\.ai$/.test(host)) return "+AutoCoreHTTP";
         if (scheme === "http" && url.indexOf(".gizlen.net") >= 0) return "+AutoCoreHTTP";
