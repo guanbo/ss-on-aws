@@ -5,6 +5,7 @@ var rules = [
         [
         ],
         [
+            "cdn.rawgit.com",
             "cdn.office.net",
             "atlassian.com",
             "atlassian.net",
