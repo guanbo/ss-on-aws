@@ -5,6 +5,9 @@ var rules = [
         [
         ],
         [
+            "aider.chat",
+            "js.driftt.com",
+            "fullstory.com",
             "cdn.rawgit.com",
             "cdn.office.net",
             "atlassian.com",
